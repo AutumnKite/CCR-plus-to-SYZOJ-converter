@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problem maker="ccr-plus" version="1.1.0" type="TRA_0_4">
+    <source file="a" code="100" dir="a">
+        <language file="a.c" time="10" cmd="gcc -o a a.c -lm -static"/>
+        <language file="a.cpp" time="10" cmd="g++ -o a a.cpp -lm -static"/>
+        <language file="a.pas" time="10" cmd="fpc a.pas"/>
+    </source>
+    <task time="10" input="a.in" checker="fulltext" output="a.out">
+        <subtask score="15">
+            <point time="2" in="a1_1.in" out="a1_1.out" mem="512"/>
+            <point time="2" in="a1_2.in" out="a1_2.out" mem="512"/>
+        </subtask>
+        <subtask score="80">
+            <point time="2" in="a2_1.in" out="a2_1.out" mem="512"/>
+            <point time="2" in="a2_2.in" out="a2_2.out" mem="512"/>
+            <point time="2" in="a2_3.in" out="a2_3.out" mem="512"/>
+            <point time="2" in="a2_4.in" out="a2_4.out" mem="512"/>
+        </subtask>
+        <subtask score="5">
+            <point time="2" in="a1_1.in" out="a1_1.out" mem="512"/>
+            <point time="2" in="a1_2.in" out="a1_2.out" mem="512"/>
+            <point time="2" in="a_hack_1.in" out="a_hack_1.out" mem="512"/>
+            <point time="2" in="a_hack_2.in" out="a_hack_2.out" mem="512"/>
+        </subtask>
+    </task>
+</problem>

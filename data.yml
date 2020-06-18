@@ -1,0 +1,13 @@
+subtasks: 
+  - score: 15
+    type: min
+    cases: ['1_1', '1_2']
+  - score: 80
+    type: min
+    cases: ['2_1', '2_2', '2_3', '2_4']
+  - score: 5
+    type: min
+    cases: ['1_1', '1_2', '_hack_1', '_hack_2']
+
+inputFile: 'a#.in'
+outputFile: 'a#.out'
