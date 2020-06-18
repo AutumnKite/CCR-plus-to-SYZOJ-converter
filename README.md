@@ -4,6 +4,8 @@
 
 [SYZOJ 项目地址](https://github.com/syzoj/syzoj)
 
+代码中引用了 [TinyXML 解析库](http://www.grinninglizard.com/tinyxml/)，感谢 TinyXML 的作者。
+
 ## 使用方法
 
 在同目录下放置 CCR Plus 的数据配置文件 `.prb`。
