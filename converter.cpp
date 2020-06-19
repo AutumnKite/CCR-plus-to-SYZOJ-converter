@@ -1,5 +1,10 @@
+#include "tinyxml.cpp"
+#include "tinystr.cpp"
+#include "tinyxmlerror.cpp" 
+#include "tinyxmlparser.cpp"
 #include "tinyxml.h"
 #include "tinystr.h"
+
 #include <iostream>
 #include <fstream>
 #include <algorithm>
